@@ -1,10 +1,11 @@
-# 🏦 Ethiopia Real-Time Inter-Bank Settlement & Fraud Detection Pipeline
+# 🏦 Ethiopia-Interbank-Settlement-System
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)](https://nathenael11-nbe-settlement-pipeline.streamlit.app)
-[![GitHub](https://img.shields.io/badge/📂_Source_Code-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/Nathenael11/nbe-settlement-pipeline)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)](https://nbe-settlement-pipeline-2p58veeizsousvafcd946r.streamlit.app/)
+[![GitHub](https://img.shields.io/badge/📂_Source_Code-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/Nathenael11/Ethiopia-Interbank-Settlement-System)
 [![Python](https://img.shields.io/badge/🐍_Python-3.10+-3776AB?style=for-the-badge&logo=python)](https://www.python.org/)
 [![Kafka](https://img.shields.io/badge/📨_Apache_Kafka-3.4.0-231F20?style=for-the-badge&logo=apachekafka)](https://kafka.apache.org/)
 [![Hadoop](https://img.shields.io/badge/🐘_Apache_Hadoop-3.3.4-66CCFF?style=for-the-badge&logo=apachehadoop)](https://hadoop.apache.org/)
+[![Streamlit](https://img.shields.io/badge/📊_Streamlit-Cloud-FF4B4B?style=for-the-badge&logo=streamlit)](https://streamlit.io/)
 
 ---
 
@@ -20,15 +21,16 @@
 - [Project Structure](#-project-structure)
 - [Installation & Setup](#-installation--setup)
 - [Running the Pipeline](#-running-the-pipeline)
-- [Dashboard Screenshots](#-dashboard-screenshots)
+- [Dashboard Features](#-dashboard-features)
 - [Team](#-team)
 - [Acknowledgments](#-acknowledgments)
+- [Contact](#-contact)
 
 ---
 
 ## 📖 Overview
 
-This project implements an **end-to-end big data streaming pipeline** that simulates the **National Bank of Ethiopia (NBE)** receiving real-time inter-bank settlement transactions from private commercial banks including **CBE, Dashen, Awash, Bunna, Oromia, Wegagen, and Ahadu Bank**.
+**Ethiopia-Interbank-Settlement-System** is an end-to-end big data streaming pipeline that simulates the **National Bank of Ethiopia (NBE)** receiving real-time inter-bank settlement transactions from private commercial banks including **CBE, Dashen, Awash, Bunna, Oromia, Wegagen, and Ahadu Bank**.
 
 The system ingests high-velocity financial events via **Apache Kafka**, processes them through **three independent consumer groups** (Fraud Detection, Regulatory Audit, Settlement Aggregation), and persists batched outputs to **Hadoop HDFS** using an in-memory buffering strategy to prevent the NameNode small-files problem.
 
@@ -48,7 +50,7 @@ The system ingests high-velocity financial events via **Apache Kafka**, processe
 
 ### 🌐 Access the Live Dashboard
 
-> **[Click here to view the live dashboard →](https://nathenael11-nbe-settlement-pipeline.streamlit.app)**
+> **[Click here to view the live dashboard →](https://nbe-settlement-pipeline-2p58veeizsousvafcd946r.streamlit.app/)**
 
 The dashboard provides real-time visualization of:
 - 📊 Transaction flow between banks
@@ -57,6 +59,7 @@ The dashboard provides real-time visualization of:
 - 📈 Transaction analytics and visualizations
 
 ---
+
 ## 🏗️ System Architecture
 
 ┌─────────────────────────────────────────────────────────────────────────────┐
