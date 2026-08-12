@@ -262,7 +262,7 @@ Fraud Alerts	See flagged suspicious transactions
 Visualizations	Pie charts and histograms of transaction data
 System Status	Real-time monitoring of HDFS, Kafka, and pipeline
 
-### 🙏 Acknowledgments
+🙏 Acknowledgments
 
 Apache Foundation - For Kafka and Hadoop
 
