@@ -250,7 +250,7 @@ streamlit run streamlit_app.py
 bash
 hdfs dfs -ls /user/abulu13/settlement_data/
 hdfs dfs -cat /user/abulu13/settlement_data/batch_*.json | head -5
-📊 Dashboard Screenshots
+
 The live dashboard is available at: https://nathenael11-nbe-settlement-pipeline.streamlit.app
 
 Feature	Description
@@ -258,19 +258,14 @@ Transactions Viewer	View all transactions in a sortable table
 Fraud Alerts	See flagged suspicious transactions
 Visualizations	Pie charts and histograms of transaction data
 System Status	Real-time monitoring of HDFS, Kafka, and pipeline
-👥 Team
-Name	Role	Contribution
-Nathenael Ermias	Lead Developer	Architecture design, Kafka & HDFS integration, Streamlit dashboard, Documentation
-Team Member 1	Data Engineer	Consumer group implementation
-Team Member 2	Data Engineer	Producer & data generation
+
 🙏 Acknowledgments
-National Bank of Ethiopia - For the real-world use case inspiration
 
 Apache Foundation - For Kafka and Hadoop
 
 Streamlit - For the amazing dashboard framework
 
-Big Data Course Instructors - For guidance and support
+Big Data Course Instructor - For guidance and support
 
 📜 License
 This project was developed for educational purposes as part of a Big Data Analytics course assignment.
