@@ -22,7 +22,6 @@
 - [Installation & Setup](#-installation--setup)
 - [Running the Pipeline](#-running-the-pipeline)
 - [Dashboard Features](#-dashboard-features)
-- [Team](#-team)
 - [Acknowledgments](#-acknowledgments)
 - [Contact](#-contact)
 
